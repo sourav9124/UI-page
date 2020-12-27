@@ -1,0 +1,2415 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+   font-family: 'Poppins' sans-serif;
+}
+body{
+    width: 100%;
+}
+/* ------------------------------------------------------- */
+/* nav css started */
+nav div.logo{
+    position: relative;
+   left: 85px;
+   top: -16px;
+}
+
+
+nav{
+    position: relative;
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+
+    
+
+}
+/* --------------------------------------------------------------------------------- */
+    /* nav items start css */
+nav .nav-items{
+    display: flex;
+    
+    padding: 0 0 0 25%;
+    position: relative;
+    right: 60px;
+    left: -80px;
+    
+}
+nav .nav-items li{
+    list-style: none;
+    padding: 0 15px;
+}
+nav .nav-items li a{
+    text-decoration: none;
+    font: normal normal normal 14px/21px Poppins;
+    color:#555555;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    opacity: 1;
+    font-size: 14px;
+    
+
+}
+nav .nav-items li a:hover{
+    letter-spacing: 0px;
+color: #9D60EB;
+opacity: 1;
+
+}
+
+nav .nav-items li a.active{
+     color: #9D60EB;
+}
+.pointer{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color:  #9D60EB;
+    transform: translateX(-420px);
+    margin-top: 20px;
+    transition: transform 0.3s ease-in-out;
+
+}
+     /* nav items css end */
+/* ---------------------------------------------------------------------------------- */
+
+     /* search css button in nav */
+.search-data{
+    padding: 15px;
+    width: 230px;
+    height: 35px;
+    border: 1px solid #C6BAF8;
+    border-radius: 4px;
+    opacity: 1;
+    position: relative;
+    right: 75px;
+    
+    font-size: 13px;
+
+    
+}
+
+.contact{
+    padding: 2px;
+    position: relative;
+    right: 60px;
+    width: 120px;
+    height: 35px;
+    background: transparent linear-gradient(40deg, #6362D7 0%, #FF8FE2 100%) 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+    color: white;
+}
+
+
+        /* nav css end here */
+/* ----------------------------------------------------------------------------------------- */
+
+    /* create simple section */
+
+            /* create simple css start */
+.main-para{
+    text-align: center;
+    
+}
+.para1 h1{
+    width: 631px;
+height: 64px;
+background-color: red;
+
+}
+
+
+#para1{
+    text-align: center;
+font: normal normal 600 21px/40px Poppins;
+letter-spacing: 0.46px;
+color: #222222;
+text-transform: capitalize;
+font-weight: bold;
+}
+#para2{
+    
+font: 20px/58px Poppins ;
+letter-spacing: 0.46px;
+color: #222222
+font-weight:normal;
+
+}
+#para3{
+    
+    text-align: center;
+font: normal normal normal 12px/28px Poppins;
+letter-spacing: 0px;
+color: #555555;
+opacity: 1;
+font-weight: normal;
+    
+}    
+            /* create simple css sectiom end */
+
+/* -------------------------------------------------------------------------------------------------- */
+            /* 2 button below create simple  */
+.ourwork{
+    background: transparent linear-gradient(57deg, #6362D7 0%, #FF8FE2 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 10px;
+    width: 110px;
+    position: relative;
+    border-radius: 5px;
+    left: 540px;
+    color: white;
+    top: -14px;
+
+}
+.knowmore{
+    
+    border: 1px solid #9D60EB;
+    background-color: none;
+    opacity: 1;
+    padding: 10px;
+    width: 110px;
+    position: relative;
+    left: 560px;
+    border-radius: 5px;
+    color: #9D60EB;
+    top: -14px;
+
+}
+.but1{
+   
+    display: flex;
+    padding: 30px;
+    width: 100%;
+
+}
+            /* 2 button below create simple  end  */
+/* -------------------------------------------------------------------------- */
+            /* main image css below 2 button */
+.mainimage{
+    text-align: center;
+}
+.rect{
+    position: relative;
+    top: -30px;
+    width: 100%;
+    height: 55px;
+    background: transparent linear-gradient(13deg, #FFFFFF 0%, #AAD7FF 80%) 0% 0% no-repeat padding-box;
+    opacity: 0.4;
+
+}         /* main image css below 2 button */
+
+    /* create simple section end */
+/* ---------------------------------------------------------------------------------- */
+
+        /*  the process strt section */
+.section-2{
+    display: flex;
+    
+    margin-top: 75px;
+    margin-left: 20%;
+    
+
+}
+
+#para-div{
+    width: 36%;
+    
+}
+#zza{
+    font: normal normal normal 28px/46px Poppins;
+    letter-spacing: 0px;
+    color: #222222;
+}
+#yaa{
+    text-align: left;
+            font: normal normal 600 28px/28px Poppins;
+            letter-spacing: 0px;
+            color: #222222;
+}
+#x{
+    font: normal normal normal 12px/27px Poppins;
+            letter-spacing: 0px;
+            color: #555555;
+            opacity: 1;  line-height: normal;
+}
+#y{
+    font: normal normal normal 12px/27px Poppins;
+            letter-spacing: 0px;
+            color: #555555;
+            opacity: 1; line-height: normal;
+}
+#w{
+    background: transparent linear-gradient(58deg, #6362D7 0%, #FF8FE2 100%) 0% 0% no-repeat padding-box;
+            opacity: 1; width: 145px;
+        height: 41px; border-radius: 6px; color: white;
+}
+#section-2-image-img{
+    height: 70%; width: auto; margin-left: 100px;
+}
+
+
+            /* css en here the process */
+ /*---------------------------------------------------------------------------------------------------------  */
+
+            /* we are here to */
+#weare{
+    height: 70%; width: auto; margin-left: 100px;
+}
+ #para-div-a{
+    font: normal normal normal 28px/46px Poppins;
+        letter-spacing: 0px;
+        color: #222222;
+}
+#para-div-b{
+    text-align: left;
+        font: normal normal 600 28px/28px Poppins;
+        letter-spacing: 0px;
+        color: #222222;
+}
+#para-div-c{
+    font: normal normal normal 12px/27px Poppins;
+        letter-spacing: 0px;
+        color: #555555;
+        opacity: 1;  line-height: normal;
+}
+#para-div-d{
+    font: normal normal normal 12px/27px Poppins;
+        letter-spacing: 0px;
+        color: #555555;
+        opacity: 1; line-height: normal;
+}
+
+ /* we are here to  end */
+/* ---------------------------------------------------------------------------------- */
+
+/* card start here */
+
+
+ .card{
+    display: flex;
+    margin-left: 300px;
+    width: 850px;
+    height: 330px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 30px #99999933;
+    border-radius: 8px;
+    opacity: 1;
+}
+.div1{
+    padding-right:60px;
+    font: normal normal normal 13px/27px Poppins;
+letter-spacing: 0px;
+color: #555555;
+opacity: 1;
+line-height: normal;
+position: relative;
+    left: 32px;
+    
+    top: -10px;
+    padding-left: 25px;
+
+
+}
+
+#cred{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 255px;
+    margin-top: 40px;;
+    
+    
+}
+
+
+#cred-a{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 10px 30px #99999933;
+border-radius: 8px;
+opacity: 1;
+width: 250px;
+height: 350px;
+
+}
+#div-img-a{
+    position: relative;
+    right: 30px;
+
+}
+#crd-a{
+        
+    text-align: center;
+    display: flex;
+    
+    
+    height: 100vh;
+   justify-content: center;
+    flex-wrap:wrap ;
+    width: 60%;
+    
+    height: 400px;
+    justify-content: space-between;
+    margin-left: 250px;
+    margin-top: 80px;
+
+}
+.diva1{
+
+    width: 17em;
+    
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 30px #99999933;
+    border-radius: 8px;
+    opacity: 1;
+    height: 320px;
+
+
+}
+
+#div_img-a{
+    position: relative;
+    justify-content: center;
+
+}
+#crd-para{
+    font: normal normal normal 15px/27px Poppins;
+letter-spacing: 0px;
+color: #555555;
+opacity: 1;
+line-height: normal;
+}
+/* crds css end here */
+/*------------------------------------------------------------------------------------------  */
+    /* arrow css start here */
+#arrow{
+    margin-top: 30px;
+    margin-bottom: 100px;   
+}
+.arrow1{
+    
+    margin-left: 45%;
+
+}
+.arrow2{
+    margin-left: 5%;
+}
+     /* arrow css start here */
+ /* -------------------------------------------------------------------------------------------- */
+
+
+    /* owing product start */
+ .head1 h1{
+    font: normal normal normal 30px/46px Poppins;
+    letter-spacing: 0px;
+    color: #222222;
+    text-align: center;
+}
+#head2 {
+    text-align: center;
+    font: normal normal normal 12px/27px Poppins;
+    letter-spacing: 0px;
+    color: #555555;
+    opacity: 1;
+    line-height: normal
+}
+#head1-a-b{
+    font: normal normal 600 30px/46px Poppins;
+                    letter-spacing: 0px;
+                    color: #222222;
+}
+/* owing product start end*/
+/* -------------------------------------------------------------------------------------------------------------- */
+    /* what is specilalty of us  section */
+.section-3{
+    margin-top: ;
+}
+
+.section-3 h1{
+    text-align: center;
+}
+.section-3-h1{
+    font: normal normal normal 33px/46px Poppins;
+letter-spacing: 0px;
+color: #222222;
+
+}
+.section-3-h2{
+    font: normal normal 600 33px/46px Poppins;
+letter-spacing: 0px;
+color: #222222;
+
+}
+
+
+/* what is specilaity section end */
+/* --------------------------------------------------------------------------------- */
+/* 8-9 boxex css start */
+
+.div1a{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 10px 30px #99999933;
+border-radius: 8px;
+opacity: 1;
+width: 250px;
+height: 215px;
+margin-left: 20px;
+text-align: center;
+padding-top: 40px;
+}
+#divpara1{
+    font: normal normal normal 12px/27px Poppins;
+letter-spacing: 0px;
+color: #999999;
+opacity: 1;
+line-height: normal;
+}
+#divpara2{
+    font: normal normal medium 16px/25px Poppins;
+letter-spacing: 0px;
+color: #49BE55;
+opacity: 1;
+}
+.section4{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:100px ;
+    margin-left: 280px;
+    margin-bottom: 50px;
+    
+
+}
+.div1c{
+    
+    margin-top: -40px;
+}
+.div1e{
+    margin-top: 26px;
+}
+.div1f{
+    margin-top: -18px;
+}
+.div1g{
+    margin-top: 26px;
+}
+
+
+/* 8-9 boxex end here */
+/* ------------------------------------------------------------------------------------- */
+
+/* strat here client */
+
+.client{
+    text-align: center;
+font: normal normal lighter 20px/46px Poppins;
+letter-spacing: 0px;
+color: #222222;
+
+}
+
+span{
+    font: normal normal lighter 30px/46px Poppins;
+letter-spacing: 0px;
+color: #222222;
+}
+/* ----------------------------------------------- */
+
+/* middle phtos start here */
+.middle-photo{
+    text-align: center;
+    margin-top: 0px;
+
+}
+#middle-a{
+    width: 120px; position: relative; left: 5%;
+}
+#middle-b{
+    width: 65px; position: relative; right: 30%;
+
+}
+#middle-c{
+    width: 75px; position: relative; left:15%; position: relative; top:-11px
+}
+#middle-d{
+    width: 300px;margin-left: 38%; font: normal normal normal 13px/34px Poppins;
+                    letter-spacing: 0.48px;
+                    color: #333333;
+                    opacity: 1; line-height: normal;
+}
+#middle-e{
+    position: relative; top: -65px; width: 30px; right: 210px;
+}
+#middle-f{
+    position: relative; top: -92px; width: 30px; left: 190px;
+}
+#middle-g{
+    width: 50px; position: relative; right: 33%; top: -50px;
+}
+#middle-h{
+    width: 60px; position: relative; left: 27%; top: -110px;
+}
+#middle-i{
+    position: relative; top: -140px;
+}
+#middle-j{
+    position: relative;
+}
+
+/* middle photo end here */
+/* ---------------------------------------------------------------------------------------- */
+
+/* ceo arrow start  */
+
+#ceo-a{
+    width: 75px; position: relative; right: 28%; top: 20px;
+}
+#ceo-b{
+    width: 50px; position: relative; left: 23%; top: -60px; 
+}
+#ceo-c{
+    position: relative; top: -120px;
+}
+.arr1{
+    margin-right: 50px;
+}
+
+/* ceo arrow start  */
+/* --------------------------------------------------------- */
+
+/* form start here */
+#f-aa{
+    text-align: center;
+                    font: normal normal normal 28px/46px Poppins;
+                    letter-spacing: 0px;
+                    color: #222222;
+}
+#f-ab{
+    text-align: center;
+                        font: normal normal 600 30px/46px Poppins;
+                        letter-spacing: 0px;
+                        color: #222222;
+}
+
+.form{
+    background: transparent linear-gradient(1deg, #FFFFFF 0%, #C9E6FF 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 1000px;
+    height: 950px;
+    margin-left: 180px;
+    margin-top: -120px;
+    position: relative;
+}
+#form-passa{
+    position: relative;
+    top: 40px;
+}
+#div-form{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 20px 60px #3E3E3E29;
+border-radius: 8px;
+opacity: 1;
+}
+#form-con{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 20px 60px #3E3E3E29;
+border-radius: 8px;
+opacity: 1;
+margin-top: 100px;
+width: 60%;
+height: 60%;
+margin-left: 200px;
+}
+#form-a{
+    
+    margin-top: -32.5px;
+    margin-left: 330px;
+    position: relative;
+    top: -38px;
+
+}
+#form-1{
+    margin-left: 40px;
+    position: relative;
+    top: 40px;
+}
+#form-text{
+    font: normal normal medium 14px/21px Poppins;
+letter-spacing: 0px;
+color: #222222;
+opacity: 1;
+
+}
+#name1{
+    background-color:#F5F8FA;
+    padding: 5px;
+    border-radius: 4px;
+    border:1px solid #dae8eb;
+    opacity: 0.4;
+}
+
+#form-button{
+    background: transparent linear-gradient(57deg, #6362D7 0%, #FF8FE2 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 10px;
+    width: 110px;
+    position: relative;
+    border-radius: 5px;
+    left: 8px;
+    color: white;
+    top: 65px;
+    
+}
+#form-img{
+    width: 211px;
+    position: relative;
+    top: -370px;
+    left: 208px;
+}
+#form-img-sec{
+    width: 128px;
+    position: relative;
+    top: -561px;
+    left: 946px;
+
+}
+#form-img-third{
+    position: relative;
+    top: -768px;
+    left: 1066px;
+    height: 208px;
+}
+
+/* form css end here */
+/* ---------------------------------------------------------------------------------------------- */
+#logo-bet{
+    position: relative;
+    top: -700px;
+    margin-left: 600px;
+}
+#go-tech-down{
+    position: relative;
+    text-outline: -55px;
+    left: 75px;
+}
+#doen-font{
+    font-size:1.8em; color: #9D60EB; 
+            height: 22px;
+}
+#down-span-do{
+    color: #49BE55; 
+            height: 24px;
+}
+#logo-down{
+    margin-top: -57px;
+    margin-left: 63px;
+}
+#aba{
+    font-size:2.2em; color: #9D60EB; width: 37px;
+                    height: 22px;
+}
+#abc{
+    color: #49BE55; font-weight: 100;width: 58px;
+                    height: 24px;
+}
+/* logo end here down side------------------------------------------------------------------------------------------------------ */
+#footer-down{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: -45%;
+    width: 60%;
+    margin-left: 22%;
+    text-decoration: none;
+    list-style: none;
+}
+#foot-a{
+    font: normal normal normal 13px/28px Poppins;
+letter-spacing: 0px;
+color: #777777;
+opacity: 1;
+
+}
+
+#img-phone{
+    position: relative;
+    top: -37%;
+    right:35px;
+
+}
+#img-follow{
+    position: relative;
+    right: 8px;
+}
+#footer-a{
+    background: transparent linear-gradient(5deg, #FFFFFF 0%, #D5ECFF 100%) 0% 0% no-repeat padding-box;
+opacity: 0.8;
+height: 200px;
+}
+#foot-aa{
+    width: 260px;
+    position: relative;
+    left: 250px;
+
+}
+#foot-b{
+    width: 260px;
+    position: relative;
+    left: 530px;
+}
+#logo-base-abc{
+    width: 70%; position: relative;
+            left: 100px; top: -2px;
+}
+#aa{
+    font-size:1.8em; color: #9D60EB; width: 37px;
+    height: 22px;
+}
+
+#tech-aza{
+    color: #49BE55; font-weight: 100;width: 58px;
+            height: 24px;
+}
+
+
+#u{
+    height: 70%; width: auto; margin-left: 100px;" src="images/Layer_1.png
+}
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+/* responsive start from here  */
+
+
+@media only screen and (max-width:1440px){
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        
+       font-family: 'Poppins' sans-serif;
+    }
+    body{
+        width: 100%;
+    }
+    /* ------------------------------------------------------- */
+    /* nav css started */
+    nav div.logo{
+        position: relative;
+       left: 85px;
+       top: -16px;
+    }
+    
+    
+    nav{
+        position: relative;
+        
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+        padding: 20px;
+        align-items: center;
+    
+        
+    
+    }
+    /* --------------------------------------------------------------------------------- */
+        /* nav items start css */
+    nav .nav-items{
+        display: flex;
+        
+        padding: 0 0 0 25%;
+        position: relative;
+        right: 60px;
+        left: -80px;
+        
+    }
+    nav .nav-items li{
+        list-style: none;
+        padding: 0 15px;
+    }
+    nav .nav-items li a{
+        text-decoration: none;
+        font: normal normal normal 14px/21px Poppins;
+        color:#555555;
+        text-transform: capitalize;
+        letter-spacing: 0px;
+        opacity: 1;
+        font-size: 14px;
+        
+    
+    }
+    nav .nav-items li a:hover{
+        letter-spacing: 0px;
+    color: #9D60EB;
+    opacity: 1;
+    
+    }
+    
+    nav .nav-items li a.active{
+         color: #9D60EB;
+    }
+    .pointer{
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background-color:  #9D60EB;
+        transform: translateX(-420px);
+        margin-top: 20px;
+        transition: transform 0.3s ease-in-out;
+    
+    }
+         /* nav items css end */
+    /* ---------------------------------------------------------------------------------- */
+    
+         /* search css button in nav */
+    .search-data{
+        padding: 15px;
+        width: 230px;
+        height: 35px;
+        border: 1px solid #C6BAF8;
+        border-radius: 4px;
+        opacity: 1;
+        position: relative;
+        right: 75px;
+        
+        font-size: 13px;
+    
+        
+    }
+    
+    .contact{
+        padding: 2px;
+        position: relative;
+        right: 60px;
+        width: 120px;
+        height: 35px;
+        background: transparent linear-gradient(40deg, #6362D7 0%, #FF8FE2 100%) 0% 0% no-repeat padding-box;
+        border-radius: 4px;
+        opacity: 1;
+        color: white;
+    }
+    
+    
+            /* nav css end here */
+    /* ----------------------------------------------------------------------------------------- */
+    
+        /* create simple section */
+    
+                /* create simple css start */
+    .main-para{
+        text-align: center;
+        
+    }
+    .para1 h1{
+        width: 631px;
+    height: 64px;
+    background-color: red;
+    
+    }
+    
+    
+    #para1{
+        text-align: center;
+    font: normal normal 600 21px/40px Poppins;
+    letter-spacing: 0.46px;
+    color: #222222;
+    text-transform: capitalize;
+    font-weight: bold;
+    }
+    #para2{
+        
+    font: 20px/58px Poppins ;
+    letter-spacing: 0.46px;
+    color: #222222
+    font-weight:normal;
+    
+    }
+    #para3{
+        
+        text-align: center;
+    font: normal normal normal 12px/28px Poppins;
+    letter-spacing: 0px;
+    color: #555555;
+    opacity: 1;
+    font-weight: normal;
+        
+    }    
+                /* create simple css sectiom end */
+    
+    /* -------------------------------------------------------------------------------------------------- */
+                /* 2 button below create simple  */
+    .ourwork{
+        background: transparent linear-gradient(57deg, #6362D7 0%, #FF8FE2 100%) 0% 0% no-repeat padding-box;
+        opacity: 1;
+        padding: 10px;
+        width: 110px;
+        position: relative;
+        border-radius: 5px;
+        left: 540px;
+        color: white;
+        top: -14px;
+    
+    }
+    .knowmore{
+        
+        border: 1px solid #9D60EB;
+        background-color: none;
+        opacity: 1;
+        padding: 10px;
+        width: 110px;
+        position: relative;
+        left: 560px;
+        border-radius: 5px;
+        color: #9D60EB;
+        top: -14px;
+    
+    }
+    .but1{
+       
+        display: flex;
+        padding: 30px;
+        width: 100%;
+    
+    }
+                /* 2 button below create simple  end  */
+    /* -------------------------------------------------------------------------- */
+                /* main image css below 2 button */
+    .mainimage{
+        text-align: center;
+    }
+    .rect{
+        position: relative;
+        top: -30px;
+        width: 100%;
+        height: 55px;
+        background: transparent linear-gradient(13deg, #FFFFFF 0%, #AAD7FF 80%) 0% 0% no-repeat padding-box;
+        opacity: 0.4;
+    
+    }         /* main image css below 2 button */
+    
+        /* create simple section end */
+    /* ---------------------------------------------------------------------------------- */
+    
+            /*  the process strt section */
+    .section-2{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 75px;
+        margin-left: 20%;
+        
+    
+    }
+    
+    #para-div{
+        width: 36%;
+        
+    }
+    #zza{
+        font: normal normal normal 28px/46px Poppins;
+        letter-spacing: 0px;
+        color: #222222;
+    }
+    #yaa{
+        text-align: left;
+                font: normal normal 600 28px/28px Poppins;
+                letter-spacing: 0px;
+                color: #222222;
+    }
+    #x{
+        font: normal normal normal 12px/27px Poppins;
+                letter-spacing: 0px;
+                color: #555555;
+                opacity: 1;  line-height: normal;
+    }
+    #y{
+        font: normal normal normal 12px/27px Poppins;
+                letter-spacing: 0px;
+                color: #555555;
+                opacity: 1; line-height: normal;
+    }
+    #w{
+        background: transparent linear-gradient(58deg, #6362D7 0%, #FF8FE2 100%) 0% 0% no-repeat padding-box;
+                opacity: 1; width: 145px;
+            height: 41px; border-radius: 6px; color: white;
+    }
+    #section-2-image-img{
+        height: 70%; width: auto; margin-left: 100px;
+    }
+    
+    
+                /* css en here the process */
+     /*---------------------------------------------------------------------------------------------------------  */
+    
+                /* we are here to */
+
+                #weare{
+                    height: 70%; width: auto; margin-left: 100px;
+                }
+     #para-div-a{
+        font: normal normal normal 28px/46px Poppins;
+            letter-spacing: 0px;
+            color: #222222;
+    }
+    #para-div-b{
+        text-align: left;
+            font: normal normal 600 28px/28px Poppins;
+            letter-spacing: 0px;
+            color: #222222;
+    }
+    #para-div-c{
+        font: normal normal normal 12px/27px Poppins;
+            letter-spacing: 0px;
+            color: #555555;
+            opacity: 1;  line-height: normal;
+    }
+    #para-div-d{
+        font: normal normal normal 12px/27px Poppins;
+            letter-spacing: 0px;
+            color: #555555;
+            opacity: 1; line-height: normal;
+    }
+    
+     /* we are here to  end */
+    /* ---------------------------------------------------------------------------------- */
+    
+    /* card start here */
+    
+    
+     .card{
+        display: flex;
+        margin-left: 300px;
+        width: 850px;
+        height: 330px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 10px 30px #99999933;
+        border-radius: 8px;
+        opacity: 1;
+    }
+    .div1{
+        padding-right:60px;
+        font: normal normal normal 13px/27px Poppins;
+    letter-spacing: 0px;
+    color: #555555;
+    opacity: 1;
+    line-height: normal;
+    position: relative;
+        left: 32px;
+        
+        top: -10px;
+        padding-left: 25px;
+    
+    
+    }
+    
+    #cred{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 255px;
+        margin-top: 40px;;
+        
+        
+    }
+
+    #cred-a-id{
+        position: relative; left: 18px;
+    }
+    
+    
+    #crd-a{
+        
+        text-align: center;
+        display: flex;
+        
+        
+        height: 100vh;
+       justify-content: center;
+        flex-wrap:wrap ;
+        width: 60%;
+        
+        height: 400px;
+        justify-content: space-between;
+        margin-left: 250px;
+        margin-top: 80px;
+    
+    }
+    .diva1{
+
+        width: 17em;
+        
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 10px 30px #99999933;
+        border-radius: 8px;
+        opacity: 1;
+        height: 320px;
+
+
+    }
+
+    #div_img-a{
+        position: relative;
+        justify-content: center;
+    
+    }
+    #crd-para{
+        font: normal normal normal 15px/27px Poppins;
+letter-spacing: 0px;
+color: #555555;
+opacity: 1;
+line-height: normal;
+    }
+    /* crds css end here */
+    /*------------------------------------------------------------------------------------------  */
+        /* arrow css start here */
+    #arrow{
+        margin-top: 30px;
+        margin-bottom: 100px;   
+    }
+    .arrow1{
+        
+        margin-left: 41%;
+    
+    }
+    .arrow2{
+        margin-left: 5%;
+    }
+         /* arrow css start here */
+     /* -------------------------------------------------------------------------------------------- */
+    
+    
+        /* owing product start */
+     .head1 h1{
+        font: normal normal normal 30px/46px Poppins;
+        letter-spacing: 0px;
+        color: #222222;
+        text-align: center;
+    }
+    #head2 {
+        text-align: center;
+        font: normal normal normal 12px/27px Poppins;
+        letter-spacing: 0px;
+        color: #555555;
+        opacity: 1;
+        line-height: normal
+    }
+    #head1-a-b{
+        font: normal normal 600 30px/46px Poppins;
+                        letter-spacing: 0px;
+                        color: #222222;
+    }
+    /* owing product start end*/
+    /* -------------------------------------------------------------------------------------------------------------- */
+        /* what is specilalty of us  section */
+    .section-3{
+        margin-top: ;
+    }
+    
+    .section-3 h1{
+        text-align: center;
+    }
+    .section-3-h1{
+        font: normal normal normal 33px/46px Poppins;
+    letter-spacing: 0px;
+    color: #222222;
+    
+    }
+    .section-3-h2{
+        font: normal normal 600 33px/46px Poppins;
+    letter-spacing: 0px;
+    color: #222222;
+    
+    }
+    
+    
+    /* what is specilaity section end */
+    /* --------------------------------------------------------------------------------- */
+    /* 8-9 boxex css start */
+    
+    .div1a{
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 30px #99999933;
+    border-radius: 8px;
+    opacity: 1;
+    width: 250px;
+    height: 215px;
+    margin-left: 20px;
+    text-align: center;
+    padding-top: 40px;
+    }
+    #divpara1{
+        font: normal normal normal 12px/27px Poppins;
+    letter-spacing: 0px;
+    color: #999999;
+    opacity: 1;
+    line-height: normal;
+    }
+    #divpara2{
+        font: normal normal medium 16px/25px Poppins;
+    letter-spacing: 0px;
+    color: #49BE55;
+    opacity: 1;
+    }
+    .section4{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 100px;
+        margin-left: 292px;
+        margin-bottom: 50px;
+        width: 74%;
+        
+    
+    }
+    .div1c{
+        
+        margin-top: -40px;
+    }
+    .div1e{
+        margin-top: 26px;
+    }
+    .div1f{
+        margin-top: -18px;
+    }
+    .div1g{
+        margin-top: 26px;
+    }
+    
+    
+    /* 8-9 boxex end here */
+    /* ------------------------------------------------------------------------------------- */
+    
+    /* strat here client */
+    
+    .client{
+        text-align: center;
+    font: normal normal lighter 20px/46px Poppins;
+    letter-spacing: 0px;
+    color: #222222;
+    
+    }
+    
+    span{
+        font: normal normal lighter 30px/46px Poppins;
+    letter-spacing: 0px;
+    color: #222222;
+    }
+    /* ----------------------------------------------- */
+    
+    /* middle phtos start here */
+    .middle-photo{
+        text-align: center;
+        margin-top: 0px;
+    
+    }
+    #middle-a{
+        width: 120px; position: relative; left: 5%;
+    }
+    #middle-b{
+        width: 65px; position: relative; right: 30%;
+    
+    }
+    #middle-c{
+        width: 75px; position: relative; left:15%; position: relative; top:-11px
+    }
+    #middle-d{
+        width: 300px;margin-left: 38%; font: normal normal normal 13px/34px Poppins;
+                        letter-spacing: 0.48px;
+                        color: #333333;
+                        opacity: 1; line-height: normal;
+    }
+    #middle-e{
+        position: relative; top: -65px; width: 30px; right: 210px;
+    }
+    #middle-f{
+        position: relative; top: -92px; width: 30px; left: 190px;
+    }
+    #middle-g{
+        width: 50px; position: relative; right: 33%; top: -50px;
+    }
+    #middle-h{
+        width: 60px; position: relative; left: 27%; top: -110px;
+    }
+    #middle-i{
+        position: relative; top: -140px;
+    }
+    #middle-j{
+        position: relative;
+    }
+    
+    /* middle photo end here */
+    /* ---------------------------------------------------------------------------------------- */
+    
+    /* ceo arrow start  */
+    
+    #ceo-a{
+        width: 75px; position: relative; right: 28%; top: 20px;
+    }
+    #ceo-b{
+        width: 50px; position: relative; left: 23%; top: -60px; 
+    }
+    #ceo-c{
+        position: relative; top: -120px;
+    }
+    .arr1{
+        margin-right: 50px;
+    }
+    
+    /* ceo arrow start  */
+    /* --------------------------------------------------------- */
+    
+    /* form start here */
+    #f-aa{
+        text-align: center;
+                        font: normal normal normal 28px/46px Poppins;
+                        letter-spacing: 0px;
+                        color: #222222;
+    }
+    #f-ab{
+        text-align: center;
+                            font: normal normal 600 30px/46px Poppins;
+                            letter-spacing: 0px;
+                            color: #222222;
+    }
+    
+    .form{
+        background: transparent linear-gradient(1deg, #FFFFFF 0%, #C9E6FF 100%) 0% 0% no-repeat padding-box;
+        opacity: 1;
+        width: 1000px;
+        height: 950px;
+        margin-left: 180px;
+        margin-top: -120px;
+        position: relative;
+    }
+    #form-passa{
+        position: relative;
+        top: 40px;
+    }
+    #div-form{
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 20px 60px #3E3E3E29;
+    border-radius: 8px;
+    opacity: 1;
+    }
+    #form-con{
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 20px 60px #3E3E3E29;
+    border-radius: 8px;
+    opacity: 1;
+    margin-top: 100px;
+    width: 60%;
+    height: 60%;
+    margin-left: 200px;
+    }
+    #form-a{
+        
+        margin-top: -32.5px;
+        margin-left: 330px;
+        position: relative;
+        top: -38px;
+    
+    }
+    #form-1{
+        margin-left: 40px;
+        position: relative;
+        top: 40px;
+    }
+    #form-text{
+        font: normal normal medium 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #222222;
+    opacity: 1;
+    
+    }
+    #name1{
+        background-color:#F5F8FA;
+        padding: 5px;
+        border-radius: 4px;
+        border:1px solid #dae8eb;
+        opacity: 0.4;
+    }
+    
+    #form-button{
+        background: transparent linear-gradient(57deg, #6362D7 0%, #FF8FE2 100%) 0% 0% no-repeat padding-box;
+        opacity: 1;
+        padding: 10px;
+        width: 110px;
+        position: relative;
+        border-radius: 5px;
+        left: 8px;
+        color: white;
+        top: 65px;
+        
+    }
+    #form-img{
+        width: 211px;
+        position: relative;
+        top: -370px;
+        left: 208px;
+    }
+    #form-img-sec{
+        width: 128px;
+        position: relative;
+        top: -561px;
+        left: 946px;
+    
+    }
+    #form-img-third{
+        position: relative;
+        top: -768px;
+        left: 1066px;
+        height: 208px;
+    }
+    
+    /* form css end here */
+    /* ---------------------------------------------------------------------------------------------- */
+    #logo-bet{
+        position: relative;
+        top: -700px;
+        margin-left: 600px;
+    }
+    #go-tech-down{
+        position: relative;
+        text-outline: -55px;
+        left: 75px;
+    }
+    #doen-font{
+        font-size:1.8em; color: #9D60EB; 
+                height: 22px;
+    }
+    #down-span-do{
+        color: #49BE55; 
+                height: 24px;
+    }
+    #logo-down{
+        margin-top: -57px;
+        margin-left: 63px;
+    }
+    #aba{
+        font-size:2.2em; color: #9D60EB; width: 37px;
+                        height: 22px;
+    }
+    #abc{
+        color: #49BE55; font-weight: 100;width: 58px;
+                        height: 24px;
+    }
+    /* logo end here down side------------------------------------------------------------------------------------------------------ */
+    #footer-down{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: -45%;
+        width: 60%;
+        margin-left: 22%;
+        text-decoration: none;
+        list-style: none;
+    }
+    #foot-a{
+        font: normal normal normal 13px/28px Poppins;
+    letter-spacing: 0px;
+    color: #777777;
+    opacity: 1;
+    
+    }
+    
+    #img-phone{
+        position: relative;
+        top: -37%;
+        right:35px;
+    
+    }
+    #img-follow{
+        position: relative;
+        right: 8px;
+    }
+    #footer-a{
+        background: transparent linear-gradient(5deg, #FFFFFF 0%, #D5ECFF 100%) 0% 0% no-repeat padding-box;
+    opacity: 0.8;
+    height: 200px;
+    }
+    #foot-aa{
+        width: 260px;
+        position: relative;
+        left: 250px;
+    
+    }
+    #foot-b{
+        width: 260px;
+        position: relative;
+        left: 530px;
+    }
+    #logo-base-abc{
+        width: 70%; position: relative;
+                left: 100px; top: -2px;
+    }
+    #aa{
+        font-size:1.8em; color: #9D60EB; width: 37px;
+        height: 22px;
+    }
+    
+    
+    
+    #u{
+        height: 70%; width: auto; margin-left: 100px;" src="images/Layer_1.png
+    }
+
+}
+
+
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width:1024px)
+{
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        
+       font-family: 'Poppins' sans-serif;
+    }
+    body{
+        width: 100%;
+    }
+    /* ------------------------------------------------------- */
+    /* nav css started */
+    nav div.logo{
+        position: relative;
+       left: 85px;
+       top: -16px;
+    }
+    
+    
+    nav{
+        position: relative;
+        
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+        padding: 20px;
+        align-items: center;
+    
+        
+    
+    }
+    /* --------------------------------------------------------------------------------- */
+        /* nav items start css */
+    nav .nav-items{
+        display: flex;
+        
+        padding: 0 0 0 25%;
+        position: relative;
+        right: 60px;
+        left: -80px;
+        
+    }
+    nav .nav-items li{
+        list-style: none;
+        padding: 0 15px;
+    }
+    nav .nav-items li a{
+        text-decoration: none;
+        font: normal normal normal 14px/21px Poppins;
+        color:#555555;
+        text-transform: capitalize;
+        letter-spacing: 0px;
+        opacity: 1;
+        font-size: 14px;
+        
+    
+    }
+    nav .nav-items li a:hover{
+        letter-spacing: 0px;
+    color: #9D60EB;
+    opacity: 1;
+    
+    }
+    
+    nav .nav-items li a.active{
+         color: #9D60EB;
+    }
+    .pointer{
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background-color:  #9D60EB;
+        transform: translateX(-420px);
+        margin-top: 20px;
+        transition: transform 0.3s ease-in-out;
+    
+    }
+         /* nav items css end */
+    /* ---------------------------------------------------------------------------------- */
+    
+         /* search css button in nav */
+    .search-data{
+        padding: 15px;
+        width: 206px;
+        height: 35px;
+        border: 1px solid #C6BAF8;
+        border-radius: 4px;
+        opacity: 1;
+        position: relative;
+        left: 716px;
+        font-size: 13px;
+        top: -41px;
+    
+        
+    }
+    
+    .contact{
+        padding: 2px;
+        position: relative;
+        right: -722px;
+        width: 105px;
+        height: 35px;
+        background: transparent linear-gradient(40deg, #6362D7 0%, #FF8FE2 100%) 0% 0% no-repeat padding-box;
+        border-radius: 4px;
+        opacity: 1;
+        color: white;
+        top: -42px;
+    }
+    
+    
+            /* nav css end here */
+    /* ----------------------------------------------------------------------------------------- */
+    
+        /* create simple section */
+    
+                /* create simple css start */
+    .main-para{
+        text-align: center;
+        
+    }
+    .para1 h1{
+        width: 631px;
+    height: 64px;
+    background-color: red;
+    
+    }
+    
+    
+    #para1{
+        text-align: center;
+    font: normal normal 600 21px/40px Poppins;
+    letter-spacing: 0.46px;
+    color: #222222;
+    text-transform: capitalize;
+    font-weight: bold;
+    }
+    #para2{
+        
+    font: 20px/58px Poppins ;
+    letter-spacing: 0.46px;
+    color: #222222
+    font-weight:normal;
+    
+    }
+    #para3{
+        
+        text-align: center;
+    font: normal normal normal 12px/28px Poppins;
+    letter-spacing: 0px;
+    color: #555555;
+    opacity: 1;
+    font-weight: normal;
+        
+    }    
+                /* create simple css sectiom end */
+    
+    /* -------------------------------------------------------------------------------------------------- */
+                /* 2 button below create simple  */
+    .ourwork{
+        background: transparent linear-gradient(57deg, #6362D7 0%, #FF8FE2 100%) 0% 0% no-repeat padding-box;
+        opacity: 1;
+        padding: 10px;
+        width: 110px;
+        position: relative;
+        border-radius: 5px;
+        left: 540px;
+        color: white;
+        top: -14px;
+    
+    }
+    .knowmore{
+        
+        border: 1px solid #9D60EB;
+        background-color: none;
+        opacity: 1;
+        padding: 10px;
+        width: 110px;
+        position: relative;
+        left: 560px;
+        border-radius: 5px;
+        color: #9D60EB;
+        top: -14px;
+    
+    }
+    .but1{
+       
+        display: flex;
+        position: relative;
+        padding: 30px;
+        width: 100%;
+        right: 178px;
+    
+    }
+                /* 2 button below create simple  end  */
+    /* -------------------------------------------------------------------------- */
+                /* main image css below 2 button */
+    .mainimage{
+        text-align: center;
+    }
+    .rect{
+        position: relative;
+        top: -30px;
+        width: 100%;
+        height: 55px;
+        background: transparent linear-gradient(13deg, #FFFFFF 0%, #AAD7FF 80%) 0% 0% no-repeat padding-box;
+        opacity: 0.4;
+    
+    }         /* main image css below 2 button */
+    
+        /* create simple section end */
+    /* ---------------------------------------------------------------------------------- */
+    
+            /*  the process strt section */
+    .section-2{
+        display: flex;
+        flex-wrap: wrap;
+        
+        margin-left: 20%;
+        
+    
+    }
+    
+    #para-div{
+        width: 36%;
+        
+    }
+    #zza{
+        font: normal normal normal 28px/46px Poppins;
+        letter-spacing: 0px;
+        color: #222222;
+    }
+    #yaa{
+        text-align: left;
+                font: normal normal 600 28px/28px Poppins;
+                letter-spacing: 0px;
+                color: #222222;
+    }
+    #x{
+        font: normal normal normal 12px/27px Poppins;
+                letter-spacing: 0px;
+                color: #555555;
+                opacity: 1;  line-height: normal;
+    }
+    #y{
+        font: normal normal normal 12px/27px Poppins;
+                letter-spacing: 0px;
+                color: #555555;
+                opacity: 1; line-height: normal;
+    }
+    #w{
+        background: transparent linear-gradient(58deg, #6362D7 0%, #FF8FE2 100%) 0% 0% no-repeat padding-box;
+                opacity: 1; width: 145px;
+            height: 41px; border-radius: 6px; color: white;
+    }
+    #section-2-image-img{
+        height: 70%;
+        width: auto;
+        margin-left: 100px;
+        position: relative;
+        top: -297px;
+        left: 298px;
+    }
+    
+    
+                /* css en here the process */
+     /*---------------------------------------------------------------------------------------------------------  */
+    
+                /* we are here to */
+
+                #wearehere{
+                    position: relative;
+                    left: 480px;
+                    bottom: 390px;
+                }
+
+        
+        #seo-2{
+            position: relative;
+            bottom: 380px;
+            right: 90px;
+        }
+     #para-div-a{
+        font: normal normal normal 28px/46px Poppins;
+            letter-spacing: 0px;
+            color: #222222;
+    }
+    #para-div-b{
+        text-align: left;
+            font: normal normal 600 28px/28px Poppins;
+            letter-spacing: 0px;
+            color: #222222;
+    }
+    #para-div-c{
+        font: normal normal normal 12px/27px Poppins;
+            letter-spacing: 0px;
+            color: #555555;
+            opacity: 1;  line-height: normal;
+    }
+    #para-div-d{
+        font: normal normal normal 12px/27px Poppins;
+            letter-spacing: 0px;
+            color: #555555;
+            opacity: 1; line-height: normal;
+    }
+    
+     /* we are here to  end */
+    /* ---------------------------------------------------------------------------------- */
+    
+    /* card start here */
+    
+    
+     .card{
+        display: flex;
+        margin-left: 300px;
+        width: 850px;
+        height: 330px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 10px 30px #99999933;
+        border-radius: 8px;
+        opacity: 1;
+    }
+    .div1{
+        padding-right:60px;
+        font: normal normal normal 13px/27px Poppins;
+    letter-spacing: 0px;
+    color: #555555;
+    opacity: 1;
+    line-height: normal;
+    position: relative;
+        left: 32px;
+        
+        top: -10px;
+        padding-left: 25px;
+    
+    
+    }
+    
+    #cred{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 255px;
+        margin-top: 40px;;
+        
+        
+    }
+    
+    
+    #cred-a{
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 30px #99999933;
+    border-radius: 8px;
+    opacity: 1;
+    width: 250px;
+    height: 350px;
+    
+    }
+    #div-img-a{
+        position: relative;
+        right: 30px;
+    
+    }
+    #crd-a{
+        
+        text-align: center;
+        display: flex;
+        height: 100vh;
+       justify-content: center;
+        
+        width: 70%;
+        height: 600px;
+        
+        margin-left: 250px;
+        
+    
+    }
+    .diva1{
+
+        width: 14em;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 10px 30px #99999933;
+        border-radius: 8px;
+        opacity: 1;
+        height: 320px;
+        position: relative;
+        bottom: 686px;
+        right: 194px;
+
+
+    }
+    #ohhoo1{
+        position: relative;
+       margin-top: -480px;
+       margin-left: 730px;
+       
+    }
+    #ohhoo2{
+        position: relative;
+        margin-left: 22px;
+        margin-top: -23px;
+    }
+
+    #div_img-a{
+        position: relative;
+        justify-content: center;
+    
+    }
+    #crd-para{
+        font: normal normal normal 15px/27px Poppins;
+letter-spacing: 0px;
+color: #555555;
+opacity: 1;
+line-height: normal;
+    }
+    /* crds css end here */
+    /*------------------------------------------------------------------------------------------  */
+        /* arrow css start here */
+    #arrow{
+       
+        margin-bottom: 1471px;
+        position: relative;
+        bottom: 896px;
+        left: 32px; 
+    }
+    .arrow1{
+        
+        margin-left: 45%;
+    
+    }
+    .arrow2{
+        margin-left: 5%;
+    }
+         /* arrow css start here */
+     /* -------------------------------------------------------------------------------------------- */
+    
+    
+        /* owing product start */
+    
+        #owing_product{
+            position: relative;
+            bottom: 1600px;
+
+        }
+        .head1 h1{
+        font: normal normal normal 30px/46px Poppins;
+        letter-spacing: 0px;
+        color: #222222;
+        text-align: center;
+    }
+    #head2 {
+        text-align: center;
+        font: normal normal normal 12px/27px Poppins;
+        letter-spacing: 0px;
+        color: #555555;
+        opacity: 1;
+        line-height: normal
+        
+    }
+    #head2{
+        position: relative;
+        bottom: 650px;
+    }
+    #head1-a-b{
+        font: normal normal 600 30px/46px Poppins;
+                        letter-spacing: 0px;
+                        color: #222222;
+    }
+    /* owing product start end*/
+    /* -------------------------------------------------------------------------------------------------------------- */
+        /* what is specilalty of us  section */
+    
+    
+    .section-3 h1{
+        text-align: center;
+        position: relative;
+       bottom: 680px;
+    }
+    .section-3-h1{
+        font: normal normal normal 33px/46px Poppins;
+    letter-spacing: 0px;
+    color: #222222;
+    
+    }
+    .section-3-h2{
+        font: normal normal 600 33px/46px Poppins;
+    letter-spacing: 0px;
+    color: #222222;
+    
+    }
+    
+    
+    /* what is specilaity section end */
+    /* --------------------------------------------------------------------------------- */
+    /* 8-9 boxex css start */
+    
+    .div1a{
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 30px #99999933;
+    border-radius: 8px;
+    opacity: 1;
+    width: 250px;
+    height: 215px;
+    margin-left: 20px;
+    text-align: center;
+    padding-top: 40px;
+    }
+    #divpara1{
+        font: normal normal normal 12px/27px Poppins;
+    letter-spacing: 0px;
+    color: #999999;
+    opacity: 1;
+    line-height: normal;
+    }
+    #divpara2{
+        font: normal normal medium 16px/25px Poppins;
+    letter-spacing: 0px;
+    color: #49BE55;
+    opacity: 1;
+    }
+    .section4{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 218px;
+        margin-bottom: 62px;
+        position: relative;
+        bottom: 2212px;
+        
+    
+    }
+    .div1c{
+        
+        margin-top: -40px;
+    }
+    .div1e{
+        margin-top: 26px;
+    }
+    .div1f{
+        margin-top: -18px;
+    }
+    .div1g{
+        margin-top: 26px;
+    }
+    
+    
+    /* 8-9 boxex end here */
+    /* ------------------------------------------------------------------------------------- */
+    
+    /* strat here client */
+
+    #clean{
+        position: relative;
+        bottom: 1000px;
+    }
+    
+    .client{
+        text-align: center;
+    font: normal normal lighter 20px/46px Poppins;
+    letter-spacing: 0px;
+    color: #222222;
+    
+    }
+    .client{
+        position: relative;
+        bottom: 2200px;
+    }
+    
+    span{
+        font: normal normal lighter 30px/46px Poppins;
+    letter-spacing: 0px;
+    color: #222222;
+    }
+    /* ----------------------------------------------- */
+    
+    /* middle phtos start here */
+    .middle-photo{
+        text-align: center;
+        margin-top: 0px;
+        position: relative;
+        bottom: 1217px;
+    
+    }
+    #middle-a{
+        width: 120px; position: relative; left: 5%;
+    }
+    #middle-b{
+        width: 65px; position: relative; right: 30%;
+    
+    }
+    #middle-c{
+        width: 75px; position: relative; left:15%; position: relative; top:-11px
+    }
+    #middle-d{
+        width: 300px;margin-left: 38%; font: normal normal normal 13px/34px Poppins;
+                        letter-spacing: 0.48px;
+                        color: #333333;
+                        opacity: 1; line-height: normal;
+    }
+    #middle-e{
+        position: relative; top: -65px; width: 30px; right: 210px;
+    }
+    #middle-f{
+        position: relative; top: -92px; width: 30px; left: 190px;
+    }
+    #middle-g{
+        width: 50px; position: relative; right: 33%; top: -50px;
+    }
+    #middle-h{
+        width: 60px; position: relative; left: 27%; top: -110px;
+    }
+    #middle-i{
+        position: relative; top: -140px;
+    }
+    #middle-j{
+        position: relative;
+    }
+    
+    /* middle photo end here */
+    /* ---------------------------------------------------------------------------------------- */
+    
+    /* ceo arrow start  */
+    
+    #ceo-a{
+        width: 75px; position: relative; right: 28%; top: 20px;
+    }
+    #ceo-b{
+        width: 50px; position: relative; left: 23%; top: -60px; 
+    }
+    #ceo-c{
+        position: relative; top: -120px;
+    }
+    .arr1{
+        margin-right: 50px;
+    }
+    
+    /* ceo arrow start  */
+    /* --------------------------------------------------------- */
+    
+    /* form start here */
+    #f-aa{
+        text-align: center;
+                        font: normal normal normal 28px/46px Poppins;
+                        letter-spacing: 0px;
+                        color: #222222;
+    }
+    #f-ab{
+        text-align: center;
+                            font: normal normal 600 30px/46px Poppins;
+                            letter-spacing: 0px;
+                            color: #222222;
+    }
+    
+    .form{
+        background: transparent linear-gradient(1deg, #FFFFFF 0%, #C9E6FF 100%) 0% 0% no-repeat padding-box;
+        opacity: 1;
+        width: 931px;
+        height: 950px;
+        margin-left: 45px;
+        position: relative;
+        bottom: 2150px;
+    }
+    #form-passa{
+        position: relative;
+        top: 40px;
+    }
+    #div-form{
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 20px 60px #3E3E3E29;
+    border-radius: 8px;
+    opacity: 1;
+    }
+    #form-con{
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 20px 60px #3E3E3E29;
+    border-radius: 8px;
+    opacity: 1;
+    margin-top: 100px;
+    width: 60%;
+    height: 60%;
+    margin-left: 200px;
+    }
+    #form-a{
+        
+        margin-top: -32.5px;
+        margin-left: 330px;
+        position: relative;
+        top: -38px;
+    
+    }
+    #form-1{
+        margin-left: 40px;
+        position: relative;
+        top: 40px;
+    }
+    #form-text{
+        font: normal normal medium 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #222222;
+    opacity: 1;
+    
+    }
+    #name1{
+        background-color:#F5F8FA;
+        padding: 5px;
+        border-radius: 4px;
+        border:1px solid #dae8eb;
+        opacity: 0.4;
+    }
+    
+    #form-button{
+        background: transparent linear-gradient(57deg, #6362D7 0%, #FF8FE2 100%) 0% 0% no-repeat padding-box;
+        opacity: 1;
+        padding: 10px;
+        width: 110px;
+        position: relative;
+        border-radius: 5px;
+        left: 8px;
+        color: white;
+        top: 65px;
+        
+    }
+    #form-img{
+        width: 211px;
+        position: relative;
+        top: -2500px;
+        left: 87px;
+    }
+    #form-img-sec{
+        width: 128px;
+        position: relative;
+        top: -2700px;
+        left: 733px;
+    
+    }
+    #form-img-third{
+        position: relative;
+        top: -2915px;
+        left: 834px;
+        height: 208px;
+    }
+    
+    /* form css end here */
+    /* ---------------------------------------------------------------------------------------------- */
+    #logo-bet{
+        position: relative;
+        top: -2850px;
+        margin-left: 450px;
+    }
+    #go-tech-down{
+        position: relative;
+        text-outline: -55px;
+        left: 75px;
+    }
+    #doen-font{
+        font-size:1.8em; color: #9D60EB; 
+                height: 22px;
+    }
+    #down-span-do{
+        color: #49BE55; 
+                height: 24px;
+    }
+    #logo-down{
+        margin-top: -57px;
+        margin-left: 63px;
+    }
+    #aba{
+        font-size:2.2em; color: #9D60EB; width: 37px;
+                        height: 22px;
+    }
+    #abc{
+        color: #49BE55; font-weight: 100;width: 58px;
+                        height: 24px;
+    }
+    /* logo end here down side------------------------------------------------------------------------------------------------------ */
+    #foor{
+        position: relative;
+        bottom: 2300px;
+    }
+    #footer-down{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: -45%;
+        width: 60%;
+        margin-left: 25%;
+        text-decoration: none;
+        list-style: none;
+    }
+    #foot-a{
+        font: normal normal normal 13px/28px Poppins;
+    letter-spacing: 0px;
+    color: #777777;
+    opacity: 1;
+    
+    }
+    
+    #img-phone{
+        position: relative;
+        top: -37%;
+        right:35px;
+    
+    }
+    #img-follow{
+        position: relative;
+        right: 8px;
+    }
+    #footer-a{
+        background: transparent linear-gradient(5deg, #FFFFFF 0%, #D5ECFF 100%) 0% 0% no-repeat padding-box;
+    opacity: 0.8;
+    height: 200px;
+    }
+    #foot-aa{
+        width: 260px;
+        position: relative;
+        left: 250px;
+    
+    }
+    #foot-b{
+        width: 260px;
+        position: relative;
+        left: 530px;
+    }
+    #logo-base-abc{
+        width: 70%; position: relative;
+                left: 100px; top: -2px;
+    }
+    #aa{
+        font-size:1.8em; color: #9D60EB; width: 37px;
+        height: 22px;
+    }
+    
+    
+    
+    #u{
+        height: 70%; width: auto; margin-left: 100px;" src="images/Layer_1.png
+    }
+
+    
+}
+
+
+
+
+@media only screen and (max-width: 768px)
+    {
+        
+    }
