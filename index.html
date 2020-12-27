@@ -6,9 +6,20 @@
 	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
 	<title>Page Title</title>
 	<meta name='viewport' content='width=device-width, initial-scale=1'>
-	<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='./js/script.js'></script>
+	<!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
+
+    
     <link rel="stylesheet" href="css/style.css">
+    <style type="text/css">
+        .form-control{
+        background-color:#F5F8FA !important;
+        padding: 5px !important;
+        border-radius: 4px !important;
+        border:1px solid #dae8eb !important;
+        opacity: 0.4 !important;
+        
+    }
+    </style>
     
     
 </head>
@@ -365,36 +376,42 @@
                     <form id="form-1">
                         <div >
                             <label id="form-text">First Name</label><br><br>
-                            <input type="text" class="form-control" id="name1" name="fname" placeholder="Robert Lee"> 
+                            <input type="text" class="form-control"  id="fname" placeholder="Robert Lee"><br>
+                            <small id="fname_error" class="form-text " style="color: red;"></small> 
                         </div>
+                        <br>
 
                         <div id="form-a">
                             <label id="form-text">Last Name</label><br><br>
-                            <input type="text" class="form-control" id="name1" name="lname" placeholder="Anderson">
+                            <input type="text" class="form-control" id="lname" placeholder="Anderson">
+                            <small id="lname_error" class="form-text " style="color: red;"></small>
                             
                         </div>
                         <br>
                         <div >
                             <label id="form-text">Your Email Adress</label><br><br>
-                            <input type="text" class="form-control" id="name1" name="email"placeholder="kevin.jones@mail.com">
+                            <input type="text" class="form-control" id="email"placeholder="kevin.jones@mail.com">
+                            <small id="email_error" class="form-text " style="color: red;"></small>
                             
                         </div>
                         <br><br>
                         <div >
                             <label id="form-text">Which Related Problem You Are Facing?</label><br><br>
-                            <select class="form-control" id="name1">
-                                <option class="form-control"id="name1" value="">Select one</option>
-                                <option class="form-control"id="name1" value="">Contact issue</option>
-                                <option class="form-control"id="name1" value="">unreachable</option>
+                            <select class="form-control" id="select">
+                                <option class="form-control" id="select" value="">Select one</option>
+                                <option class="form-control" id="select"  value="contact">Contact issue</option>
+                                <option class="form-control" id="select" value="unreachable">unreachable</option>
 
                             </select>
-                            <!-- <input type="text" class="form-control" id="name1" placeholder="Select One"> -->
+                            <small id="select_error" class="form-text " style="color: red;"></small>
+                            
                             
                         </div>
                         <br><br>
                         <div >
                             <label id="form-text">Type Your Message</label><br><br>
-                            <input type="text" name=""  class="form-control" id="name1" id="spring" placeholder="Lorem Ipsum is simply dummy text of the printing and...…….">
+                            <input type="text" id="message"  class="form-control" id="message" placeholder="Lorem Ipsum is simply dummy text of the printing and...…….">
+                            <small id="message_error" class="form-text " style="color: red;"></small>
                             
                         </div>
                         <div>
@@ -471,7 +488,7 @@
 
 
         
-
+<script type="text/javascript" src="js/script.js"></script>
 
 </body>
 </html> 

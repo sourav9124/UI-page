@@ -596,7 +596,7 @@ color: #222222;
                         color: #222222;
 }
 
-.form{
+.form1{
     background: transparent linear-gradient(1deg, #FFFFFF 0%, #C9E6FF 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
     width: 1000px;
@@ -645,13 +645,7 @@ color: #222222;
 opacity: 1;
 
 }
-#name1{
-    background-color:#F5F8FA;
-    padding: 5px;
-    border-radius: 4px;
-    border:1px solid #dae8eb;
-    opacity: 0.4;
-}
+
 
 #form-button{
     background: transparent linear-gradient(57deg, #6362D7 0%, #FF8FE2 100%) 0% 0% no-repeat padding-box;
@@ -2267,14 +2261,7 @@ line-height: normal;
     opacity: 1;
     
     }
-    #name1{
-        background-color:#F5F8FA;
-        padding: 5px;
-        border-radius: 4px;
-        border:1px solid #dae8eb;
-        opacity: 0.4;
-    }
-    
+
     #form-button{
         background: transparent linear-gradient(57deg, #6362D7 0%, #FF8FE2 100%) 0% 0% no-repeat padding-box;
         opacity: 1;
@@ -2287,6 +2274,8 @@ line-height: normal;
         top: 65px;
         
     }
+   
+    
     #form-img{
         width: 211px;
         position: relative;

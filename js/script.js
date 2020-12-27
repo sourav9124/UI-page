@@ -1,17 +1,21 @@
-const form = document.getElementByName('form');
-const fname = document.getElementByName('fname');
-const lname = document.getElementByName('lname');
-const email = document.getElementByName('email');
-const select = document.getElementByName('select');
-const message = document.getElementByName('message');
+const form = document.getElementById('form-1');
+const fname = document.getElementById('fname');
+const lname = document.getElementById('lname');
+const email = document.getElementById('email');
+const select = document.getElementById('select');
+const message = document.getElementById('message');
 
 
 
-form.addEventListener('click', e => {
+// console.log(fname+lname+email+select+message);
+
+
+form.addEventListener('submit', e => {
   e.preventDefault();
-  console.log(fname+lname+email+select+message);
+ 
   
   checkInputs();
+
 });
 
 function checkInputs() {
@@ -23,7 +27,7 @@ function checkInputs() {
   const messageValue = message.value.trim();
 
   var letters = /^[A-Za-z]+$/;
-  console.log(messageValue)
+  
   
   if(fnameValue=="")
   {
@@ -47,12 +51,12 @@ function checkInputs() {
     document.getElementById('message_error').innerHTML="Please add a message ! ";
   }
 
-  if(!(fnameValue.match(letters)) && nameValue!="")
+  if(!(fnameValue.match(letters)) && fnameValue!="")
   {
     document.getElementById('fname_error').innerHTML=" first name field should contain only alphabets ! ";
   }
 
-  if(!(lnameValue.match(letters)) && nameValue!="")
+  if(!(lnameValue.match(letters)) && lnameValue!="")
   {
     document.getElementById('lname_error').innerHTML=" last name field should contain only alphabets ! ";
   }
@@ -61,6 +65,10 @@ function checkInputs() {
   {
     document.getElementById('email_error').innerHTML="Please enter a valid email address !";
   }
+
+
+
+  
   
   
 }
